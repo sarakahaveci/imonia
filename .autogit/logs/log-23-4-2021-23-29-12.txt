@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Sun May 23 2021 23:29:12 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* package.json
+* src/components/Navbar.css
+* src/components/Navbar.js
+* src/pages/Games.css
+* src/pages/Games.js
+* src/pages/Home.js
+
+
+Created files:
+* .autogit/logs/log-23-4-2021-21-11-26.txt
+
+
+Deleted files:
+* yarn.lock
+
+
+Renamed files:
