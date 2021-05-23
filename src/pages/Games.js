@@ -7,8 +7,8 @@ function Games() {
     <div>
       <h1>Games List</h1>
       <div class="table-responsive">
-        <table class="table">
-          <Table striped bordered hover variant="dark">
+        <table class="table table-bordered table-striped">
+            <Table striped bordered hover variant="dark">
             <thead>
               <tr>
                 <th>Benzirsiz Adi</th>
@@ -145,7 +145,8 @@ function Games() {
           </Table>
           <button> Yeni Oyna Ekle </button>
         </table>
-      </div>
+
+        </div>
     </div>
   );
 }

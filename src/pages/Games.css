@@ -1,1 +1,16 @@
-td{width:100% !important;}
+.table {
+    width: auto;
+    margin: 0 auto;
+    border: 1px solid #060b26;
+}
+.table .row {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.table .row div {
+    border: 1px solid #060b26;
+}

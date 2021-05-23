@@ -1,0 +1,34 @@
+-------------------- Auto-Git Log --------------------
+		Sun May 23 2021 21:11:26 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* README.md
+* package.json
+* public/favicon.ico
+* public/index.html
+* src/App.js
+* src/index.js
+
+
+Created files:
+* .autogit/autogit.json
+* src/components/Navbar.css
+* src/components/Navbar.js
+* src/components/SidebarData.js
+* src/pages/Games.css
+* src/pages/Games.js
+* src/pages/Home.js
+* src/pages/Reports.js
+* yarn.lock
+
+
+Deleted files:
+* src/App.test.js
+* src/index.css
+* src/logo.svg
+* src/reportWebVitals.js
+* src/setupTests.js
+
+
+Renamed files:
