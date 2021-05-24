@@ -6,9 +6,9 @@ function Games() {
   return (
     <div>
       <h1>Games List</h1>
-      <div class="table-responsive">
-        <table class="table table-bordered table-striped">
-            <Table striped bordered hover variant="dark">
+      <div className="table-responsive">
+        <table className="table table-bordered table-striped">
+            <Table <Table responsive></table>>
             <thead>
               <tr>
                 <th>Benzirsiz Adi</th>
@@ -29,7 +29,8 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                <button>Duzenle</button>
+                 <Button variant="outline-secondary">Duzenle</Button>{' '}
+  
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -39,7 +40,8 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                <button>Duzenle</button>
+                 <Button variant="outline-secondary">Duzenle</Button>{' '}
+  
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -49,7 +51,8 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                <button>Duzenle</button>
+                 <Button variant="outline-secondary">Duzenle</Button>{' '}
+  
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -59,7 +62,8 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                <button>Duzenle</button>
+                 <Button variant="outline-secondary">Duzenle</Button>{' '}
+  
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -69,7 +73,8 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                <button>Duzenle</button>
+                 <Button variant="outline-secondary">Duzenle</Button>{' '}
+  
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -79,7 +84,8 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                <button>Duzenle</button>
+                 <Button variant="outline-secondary">Duzenle</Button>{' '}
+  
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -89,7 +95,8 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                <button>Duzenle</button>
+                 <Button variant="outline-secondary">Duzenle</Button>{' '}
+  
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -99,7 +106,8 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                <button>Duzenle</button>
+                 <Button variant="outline-secondary">Duzenle</Button>{' '}
+  
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -109,7 +117,8 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                <button>Duzenle</button>
+                 <Button variant="outline-secondary">Duzenle</Button>{' '}
+  
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -119,7 +128,8 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                <button>Duzenle</button>
+                 <Button variant="outline-secondary">Duzenle</Button>{' '}
+  
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -129,7 +139,8 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                <button>Duzenle</button>
+                 <Button variant="outline-secondary">Duzenle</Button>{' '}
+  
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -139,11 +150,12 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                <button>Duzenle</button>
+                 <Button variant="outline-secondary">Duzenle</Button>{' '}
+  
               </tr>
             </tbody>
           </Table>
-          <button> Yeni Oyna Ekle </button>
+          
         </table>
 
         </div>
