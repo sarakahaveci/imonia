@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Mon May 24 2021 22:17:17 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/index.js
+* src/pages/Games.css
+* src/pages/Games.js
+
+
+Created files:
+* .autogit/logs/log-24-4-2021-2-0-5.txt
+
+
+Deleted files:
+
+
+Renamed files:
