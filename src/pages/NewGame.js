@@ -1,10 +1,11 @@
 import React from "react";
 
-function Reports() {
+function NewGame() {
   return (
     <div>
+    
     </div>
   );
-}
-
-export default Reports;
+  }
+  
+export default NewGame;
