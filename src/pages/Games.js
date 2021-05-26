@@ -1,6 +1,6 @@
 import React from "react";
-import {Table, Button} from "react-bootstrap";
-import './Games.css';
+import { Table, Button } from "react-bootstrap";
+import "./Games.css";
 
 function Games() {
   return (
@@ -8,7 +8,7 @@ function Games() {
       <h1>Games List</h1>
       <div class="table-responsive">
         <table class="table table-bordered table-striped">
-            <Table striped bordered hover variant="red">
+          <Table striped bordered hover variant="red">
             <thead>
               <tr>
                 <th>Benzirsiz Adi</th>
@@ -29,8 +29,7 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                 <Button variant="outline-secondary">Duzenle</Button>{' '}
-  
+                <Button variant="outline-secondary">Duzenle</Button>{" "}
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -40,8 +39,7 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                 <Button variant="outline-secondary">Duzenle</Button>{' '}
-  
+                <Button variant="outline-secondary">Duzenle</Button>{" "}
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -51,8 +49,7 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                 <Button variant="outline-secondary">Duzenle</Button>{' '}
-  
+                <Button variant="outline-secondary">Duzenle</Button>{" "}
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -62,8 +59,7 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                 <Button variant="outline-secondary">Duzenle</Button>{' '}
-  
+                <Button variant="outline-secondary">Duzenle</Button>{" "}
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -73,8 +69,7 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                 <Button variant="outline-secondary">Duzenle</Button>{' '}
-  
+                <Button variant="outline-secondary">Duzenle</Button>{" "}
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -84,8 +79,7 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                 <Button variant="outline-secondary">Duzenle</Button>{' '}
-  
+                <Button variant="outline-secondary">Duzenle</Button>{" "}
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -95,8 +89,7 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                 <Button variant="outline-secondary">Duzenle</Button>{' '}
-  
+                <Button variant="outline-secondary">Duzenle</Button>{" "}
               </tr>
               <tr>
                 <td>AlGame</td>
@@ -106,15 +99,15 @@ function Games() {
                 <td>01.01.2021</td>
                 <td>Bireyesel</td>
                 <td>Acik</td>
-                <Button variant="outline-secondary">Duzenle</Button>{' '}
-  
+                <Button variant="outline-secondary">Duzenle</Button>{" "}
               </tr>
             </tbody>
           </Table>
-          <Button className="button" variant="outline-secondary">Yeni Oyna Ekle</Button>{' '}
+          <Button className="button" variant="outline-secondary">
+            Yeni Oyna Ekle
+          </Button>{" "}
         </table>
-
-        </div>
+      </div>
     </div>
   );
 }
