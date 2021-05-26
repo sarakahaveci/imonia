@@ -6,8 +6,8 @@ function Games() {
   return (
     <div>
       <h1>Games List</h1>
-      <div class="table-responsive">
-        <table class="table table-bordered table-striped">
+      <div className="table-responsive">
+        <table className="table table-bordered table-striped">
           <Table striped bordered hover variant="red">
             <thead>
               <tr>
