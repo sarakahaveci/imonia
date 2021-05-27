@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Fri May 28 2021 01:25:05 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.js
+* src/pages/NewGame.js
+
+
+Created files:
+* .autogit/logs/log-28-4-2021-0-28-51.txt
+
+
+Deleted files:
+* src/components/MultipleLevelSelection/index.tsx
+* src/components/MultipleLevelSelection/styles.css
+* src/components/MultipleLevelSelection/utils.ts
+* src/components/hooks/useToggle.ts
+* src/components/types/global.d.ts
+
+
+Renamed files:
