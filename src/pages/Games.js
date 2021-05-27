@@ -1,6 +1,7 @@
 import React from "react";
 import { Table, Button } from "react-bootstrap";
 import "./Games.css";
+import {Link } from "react-router-dom";
 
 function Games() {
   return (
@@ -103,9 +104,11 @@ function Games() {
               </tr>
             </tbody>
           </Table>
+          <Link to="/NewGame">
           <Button className="button" variant="outline-secondary">
             Yeni Oyna Ekle
           </Button>{" "}
+          </Link>
         </table>
       </div>
     </div>

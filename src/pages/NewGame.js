@@ -39,7 +39,7 @@ function NewGame() {
           <input type="text" name="name" />
         </label>
         <br />
-        <input type="submit" value="ileri" />
+        <input to="secondPage" type="submit" value="  ileri" />
         </form>
     </div>
   );

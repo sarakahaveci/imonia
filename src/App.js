@@ -17,7 +17,6 @@ function App() {
           <Route path="/newgame" component={NewGame} />
         </Switch>
       </Router>
-      <NewGame />
     </>
   );
 }
