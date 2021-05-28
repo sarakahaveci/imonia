@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Fri May 28 2021 02:37:45 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.js
+* src/pages/Games.js
+* src/pages/NewGame.js
+
+
+Created files:
+* .autogit/logs/log-28-4-2021-1-55-13.txt
+
+
+Deleted files:
+
+
+Renamed files:
