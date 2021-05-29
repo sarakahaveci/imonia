@@ -1,12 +1,12 @@
 import React from "react";
 import { Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
+import './style.css'
 
 function LastPage() {
     return (
-        <div>
-        <Form>
+        <div className="page">
+        <Form className="row d-flex justify-content-center">
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
           <Form.Label>Benzersiz Ad</Form.Label>
           <Form.Control as="textarea" rows={3} />
@@ -36,7 +36,7 @@ function LastPage() {
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
       </Form>
-      <Link to="/PageTwo">
+      <Link to="/">
         <Button className="button" variant="outline-secondary">
         K A Y D E T
         </Button>{" "}

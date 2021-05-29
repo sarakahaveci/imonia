@@ -1,21 +1,21 @@
-import React from 'react'
-import { Button, Form} from "react-bootstrap";
+import React from "react";
+import { Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
+import "./style.css";
 
 function PageThree() {
-    return (
-        <div>
-        <Form.Group controlId="formFile" className="mb-3">
+  return (
+    <div className="row d-flex justify-content-center page">
+      <Form.Group controlId="formFile" className="mb-3">
         <Form.Label>Oyun İconu</Form.Label>
         <Form.Control type="file" />
-      </Form.Group>   
+      </Form.Group>
       <Link to="/LastPage">
         <Button className="button" variant="outline-secondary">
-        İ L E R İ
+          İ L E R İ
         </Button>{" "}
-      </Link>            
-        </div>
-    )
+      </Link>
+    </div>
+  );
 }
 export default PageThree;

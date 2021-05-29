@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Sun May 30 2021 02:17:00 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.js
+* src/pages/PageThree.js
+* src/pages/PageTwo.js
+
+
+Created files:
+* .autogit/logs/log-30-4-2021-1-46-55.txt
+* src/pages/LastPage.js
+
+
+Deleted files:
+
+
+Renamed files:
