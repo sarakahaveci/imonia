@@ -11,12 +11,14 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar/>
+        <Navbar />
         <Switch>
-          <Route path="/" exact component={Home} ></Route>
-          <Route path="/games" component={Games} ></Route>
-          <Route path="/newgame" component={NewGame} ></Route>
-          <Route path="pagetwo" component={PageTwo} ></Route>
+          <Route path="/" exact component={Home}></Route>
+          <Route path="/games" component={Games}></Route>
+          <Route path="/newgame" component={NewGame}></Route>
+        </Switch>
+        <Switch>
+        <Route path="pagetwo" component={PageTwo}></Route>
         </Switch>
       </Router>
     </>
