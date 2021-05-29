@@ -1,52 +1,54 @@
 import React from "react";
 import { Table, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Form from "react-bootstrap/Form";
 
 function NewGame() {
   return (
     <div>
-      <form>
-        <label>
-          Benzersiz Ad:
-          <input type="text" name="name" />
-        </label>{" "}
-        <br />
-        <label>
-          Görünen İsim:
-          <input type="text" name="name" />
-        </label>
-        <br />
-        <label>
-          Oyun Açıklaması:
-          <input type="text" name="name" />
-        </label>
-        <br />
-        <label>
-          Oyun Türü:
-          <input type="text" name="name" />
-        </label>
-        <br />
-        <label>
-          Bireysel:
-          <input type="text" name="name" />
-        </label>
-        <br />
-        <label>
-          Oyun Durumu:
-          <input type="text" name="name" />
-        </label>
-        <br />
-        <label>
-          Açık:
-          <input type="text" name="name" />
-        </label>
-        <br />
-        <Link to="/StepTwo">
+        <Link to="/PageTwo">
           <Button className="button" variant="outline-secondary">
             İ L E R İ
           </Button>{" "}
         </Link>
-      </form>
+      <Form>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+          <Form.Label>Email address</Form.Label>
+          <Form.Control type="email" placeholder="name@example.com" />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Benzersiz Ad</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Benzersiz Ad</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Benzersiz Ad</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Benzersiz Ad</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Benzersiz Ad</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Benzersiz Ad</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Benzersiz Ad</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Benzersiz Ad</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+      </Form>
     </div>
   );
 }
