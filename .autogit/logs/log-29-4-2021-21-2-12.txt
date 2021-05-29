@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Sat May 29 2021 21:02:12 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.js
+* src/pages/NewGame.js
+* src/pages/PageTwo.js
+
+
+Created files:
+* .autogit/logs/log-29-4-2021-19-40-29.txt
+
+
+Deleted files:
+* yarn.lock
+
+
+Renamed files:
