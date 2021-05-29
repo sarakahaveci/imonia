@@ -1,4 +1,6 @@
 import React from "react";
+import { Table, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function NewGame() {
   return (
@@ -39,8 +41,12 @@ function NewGame() {
           <input type="text" name="name" />
         </label>
         <br />
-        <input to="secondPage" type="submit" value="  ileri" />
-        </form>
+        <Link to="/StepTwo">
+          <Button className="button" variant="outline-secondary">
+            İ L E R İ
+          </Button>{" "}
+        </Link>
+      </form>
     </div>
   );
 }

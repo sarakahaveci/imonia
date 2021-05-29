@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import NewGame from "./pages/NewGame";
+  import NewGame from "./pages/NewGame";
 import Games from "./pages/Games";
 
 function App() {
