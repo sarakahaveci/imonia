@@ -1,13 +1,9 @@
 import React from 'react'
 
-function PageTwo() {
+export default function PageTwo() {
     return (
         <div>
-        <form>
-<h1>can u see me?</h1>
-        </form>
+            <h1>hey</h1>
         </div>
     )
 }
-
-export default PageTwo

@@ -11,6 +11,7 @@ function App() {
   return (
     <>
       <Router>
+      <PageTwo/>
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />

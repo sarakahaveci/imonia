@@ -1,16 +1,11 @@
 import React from "react";
-import { Table, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Form from "react-bootstrap/Form";
 
 function NewGame() {
   return (
     <div>
-        <Link to="/PageTwo">
-          <Button className="button" variant="outline-secondary">
-            İ L E R İ
-          </Button>{" "}
-        </Link>
       <Form>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label>Email address</Form.Label>
@@ -49,6 +44,11 @@ function NewGame() {
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
       </Form>
+      <Link to="/PageTwo">
+        <Button className="button" variant="outline-secondary">
+          İ L E R İ
+        </Button>{" "}
+      </Link>
     </div>
   );
 }
