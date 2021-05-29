@@ -6,40 +6,32 @@ function NewGame() {
   return (
     <div>
       <Form>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="name@example.com" />
-        </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
           <Form.Label>Benzersiz Ad</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
+          <Form.Label>Görünen İsim</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
+          <Form.Label>Oyun Açıklaması</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
+          <Form.Label>Oyun Türü</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
+          <Form.Label>Bireysel</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
+          <Form.Label>Oyun Durumu</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
+          <Form.Label>Açık</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
       </Form>
