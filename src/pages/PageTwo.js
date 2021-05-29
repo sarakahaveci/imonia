@@ -1,47 +1,19 @@
 import React from "react";
-import { Button,Form } from "react-bootstrap";
+import { Button, Form,FormGroup,FormLabel,FormControl} from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function PageTwo() {
   return (
     <div>
       <Form>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="name@example.com" />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
+        <FormGroup controlId="date" bsSize="large">
+          <FormLabel>Oluşturulma Tarihi</FormLabel>
+          <FormControl type="date" />
+        </FormGroup>
+        <FormGroup controlId="date" bsSize="large">
+          <FormLabel>Bitiş Tarihi</FormLabel>
+          <FormControl type="date" />
+        </FormGroup>
       </Form>
       <Link to="/PageTwo">
         <Button className="button" variant="outline-secondary">
