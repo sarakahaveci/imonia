@@ -1,5 +1,11 @@
 import React from "react";
-import { Button, Form,FormGroup,FormLabel,FormControl} from "react-bootstrap";
+import {
+  Button,
+  Form,
+  FormGroup,
+  FormLabel,
+  FormControl,
+} from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function PageTwo() {
@@ -15,7 +21,7 @@ function PageTwo() {
           <FormControl type="date" />
         </FormGroup>
       </Form>
-      <Link to="/PageTwo">
+      <Link to="/PageThree">
         <Button className="button" variant="outline-secondary">
           İ L E R İ
         </Button>{" "}
