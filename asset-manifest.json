@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.347bfa7c.chunk.css",
-    "main.js": "/static/js/main.c2c843ca.chunk.js",
-    "main.js.map": "/static/js/main.c2c843ca.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7400d52a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7400d52a.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.9b7a9385.chunk.js": "/static/js/2.9b7a9385.chunk.js",
-    "static/js/2.9b7a9385.chunk.js.map": "/static/js/2.9b7a9385.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.347bfa7c.chunk.css.map": "/static/css/main.347bfa7c.chunk.css.map",
-    "static/js/2.9b7a9385.chunk.js.LICENSE.txt": "/static/js/2.9b7a9385.chunk.js.LICENSE.txt"
+    "main.css": "/imonia/static/css/main.347bfa7c.chunk.css",
+    "main.js": "/imonia/static/js/main.c2c843ca.chunk.js",
+    "main.js.map": "/imonia/static/js/main.c2c843ca.chunk.js.map",
+    "runtime-main.js": "/imonia/static/js/runtime-main.d5ea4c7f.js",
+    "runtime-main.js.map": "/imonia/static/js/runtime-main.d5ea4c7f.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/imonia/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.9b7a9385.chunk.js": "/imonia/static/js/2.9b7a9385.chunk.js",
+    "static/js/2.9b7a9385.chunk.js.map": "/imonia/static/js/2.9b7a9385.chunk.js.map",
+    "index.html": "/imonia/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/imonia/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.347bfa7c.chunk.css.map": "/imonia/static/css/main.347bfa7c.chunk.css.map",
+    "static/js/2.9b7a9385.chunk.js.LICENSE.txt": "/imonia/static/js/2.9b7a9385.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7400d52a.js",
+    "static/js/runtime-main.d5ea4c7f.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.9b7a9385.chunk.js",
     "static/css/main.347bfa7c.chunk.css",
