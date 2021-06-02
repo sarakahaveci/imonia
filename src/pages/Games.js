@@ -7,9 +7,9 @@ function Games() {
   return (
     <div>
       <h1>Games List</h1>
-      <div className="table-responsive">
+      <div>
         <table className="table table-bordered table-striped">
-          <Table striped bordered hover variant="red">
+          <Table responsive>
             <thead>
               <tr>
                 <th>Benzirsiz Adi</th>
