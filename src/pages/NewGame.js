@@ -6,7 +6,7 @@ import "./style.css";
 function NewGame() {
   return (
     <div>
-      <Form className="column d-flex justify-content-center page">
+      <Form className="column justify-content-center page">
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
           <Form.Label>Benzersiz Ad</Form.Label>
           <Form.Control as="textarea" rows={3} />

@@ -6,7 +6,7 @@ import './style.css'
 function LastPage() {
     return (
         <div className="page">
-        <Form className="row d-flex justify-content-center">
+        <Form className="column justify-content-center">
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
           <Form.Label>Benzersiz Ad</Form.Label>
           <Form.Control as="textarea" rows={3} />
