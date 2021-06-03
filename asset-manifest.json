@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/imonia/static/css/main.0baf8073.chunk.css",
-    "main.js": "/imonia/static/js/main.bc9f86ae.chunk.js",
-    "main.js.map": "/imonia/static/js/main.bc9f86ae.chunk.js.map",
+    "main.js": "/imonia/static/js/main.cb2a3a8f.chunk.js",
+    "main.js.map": "/imonia/static/js/main.cb2a3a8f.chunk.js.map",
     "runtime-main.js": "/imonia/static/js/runtime-main.d5ea4c7f.js",
     "runtime-main.js.map": "/imonia/static/js/runtime-main.d5ea4c7f.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/imonia/static/css/2.4c97ca4f.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.9b7a9385.chunk.js",
     "static/css/main.0baf8073.chunk.css",
-    "static/js/main.bc9f86ae.chunk.js"
+    "static/js/main.cb2a3a8f.chunk.js"
   ]
 }
