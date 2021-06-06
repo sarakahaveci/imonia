@@ -38,7 +38,7 @@ function LastPage() {
       </Form>
       <Link to="/">
         <Button className="button" variant="outline-secondary">
-        K A Y D E T
+        KAYDET
         </Button>{" "}
       </Link>            
         </div>
