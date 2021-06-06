@@ -4,6 +4,18 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 function NewGame() {
+  const firstStep = () => {
+    return <div>First Component</div>
+  }
+  const secondStep = () => {
+    return <div>Second Component</div>
+  }
+  const thirdStep = () => {
+    return <div>Third Component</div>
+  }
+  const finalStep = () => {
+    return <div>Final Component</div>
+  }
   return (
     <div>
       <Form className="column justify-content-center page">
