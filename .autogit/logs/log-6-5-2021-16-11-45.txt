@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Sun Jun 06 2021 16:11:45 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* public/index.html
+* src/pages/LastPage.js
+
+
+Created files:
+* .autogit/logs/log-3-5-2021-15-52-32.txt
+* yarn.lock
+
+
+Deleted files:
+
+
+Renamed files:
