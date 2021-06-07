@@ -3,6 +3,9 @@ import { Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./style.css";
 function NewGame() {
+
+  const [activeStep, setActiveStep] = useState(steps[0]);
+  const index = steps.findIndex((x) => x.key === activeStep.key);
   const [steps, setSteps] = useState([
     {
       key: "firstStep",
@@ -11,16 +14,13 @@ function NewGame() {
       component: firstStep,
     },  
   ]);
-  const [activeStep, setActiveStep] = useState(steps[0]);
   
-  const index = steps.findIndex((x) => x.key === activeStep.key);
   setSteps((prevStep) =>
     prevStep.map((x) => {
       if (x.key === activeStep.key) x.isDone = true;
       return x;
     })
   );
- 
   const firstStep = () => {
     return (
       <div>
@@ -53,6 +53,7 @@ function NewGame() {
               onClick={handleBack}
               disabled={steps[0].key === activeStep.key}
             />
+            
             <input
               type="button"
               value={
