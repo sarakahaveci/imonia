@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Button,
   Form,
@@ -10,7 +10,20 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 function PageTwo() {
-  return (
+ 
+  const [steps, setSteps] = useState([
+    {
+      key: "secondtStep",
+      label: "Second Step",
+      isDone: true,
+      component: secondStep,
+    },
+  ]);
+  const secondStep = () => {
+      return <div>Second Component</div>;
+    };
+
+    return (
     <div>
       <Form className="row d-flex justify-content-center page">
         <FormGroup controlId="date" bsSize="large">
