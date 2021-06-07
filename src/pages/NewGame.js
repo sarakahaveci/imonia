@@ -3,7 +3,6 @@ import { Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./style.css";
 function NewGame() {
-  const [activeStep, setActiveStep] = useState(steps[0]);
   const [steps, setSteps] = useState([
     {
       key: "firstStep",
@@ -12,6 +11,8 @@ function NewGame() {
       component: firstStep,
     },  
   ]);
+  const [activeStep, setActiveStep] = useState(steps[0]);
+  
   const index = steps.findIndex((x) => x.key === activeStep.key);
   setSteps((prevStep) =>
     prevStep.map((x) => {
