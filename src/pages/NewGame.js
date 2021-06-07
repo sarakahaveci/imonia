@@ -2,8 +2,24 @@ import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./style.css";
-
 function NewGame() {
+  const [activeStep, setActiveStep] = useState(steps[0]);
+  const [steps, setSteps] = useState([
+    {
+      key: "firstStep",
+      label: "My First Step",
+      isDone: true,
+      component: firstStep,
+    },  
+  ]);
+  const index = steps.findIndex((x) => x.key === activeStep.key);
+  setSteps((prevStep) =>
+    prevStep.map((x) => {
+      if (x.key === activeStep.key) x.isDone = true;
+      return x;
+    })
+  );
+ 
   const firstStep = () => {
     return (
       <div>
@@ -84,31 +100,13 @@ function NewGame() {
         </Link>
       </div>
     );  
-  const [steps, setSteps] = useState([
-    {
-      key: "firstStep",
-      label: "My First Step",
-      isDone: true,
-      component: firstStep,
-    },
   
-  ]);
-
-  const [activeStep, setActiveStep] = useState(steps[0]);
 
   const handleNext = () => {
     if (steps[steps.length - 1].key === activeStep.key) {
       alert("You have completed all steps.");
-      return;
     }
 
-    const index = steps.findIndex((x) => x.key === activeStep.key);
-    setSteps((prevStep) =>
-      prevStep.map((x) => {
-        if (x.key === activeStep.key) x.isDone = true;
-        return x;
-      })
-    );
     setActiveStep(steps[index + 1]);
   };
 
