@@ -5,7 +5,7 @@ import "./style.css";
 
 function LastPage() {
     return (
-      <div classNme="page" >
+      <div classNme="page" style={{width:"100"}} >
         <Form className="column justify-content-center">
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
             <Form.Label>Benzersiz Ad</Form.Label>
