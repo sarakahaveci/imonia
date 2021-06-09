@@ -1,7 +1,6 @@
 .page {
   margin: 2%;
-  flex-direction: column;
-  align-content: center;
+  display:inline-flex;
 }
 body {
   width: 100%;

@@ -48,25 +48,25 @@ function NewGame() {
   const [steps, setSteps] = useState([
     {
       key: "firstStep",
-      label: "My First Step",
+      label: "Add a New Game",
       isDone: true,
       component: firstComponent,
     },
     {
       key: "secondStep",
-      label: "My Second Step",
+      label: "Add Dates",
       isDone: false,
       component: PageTwo,
     },
     {
       key: "thirdStep",
-      label: "My Third Step",
+      label: "Add photo (Icon)",
       isDone: false,
       component: PageThree,
     },
     {
       key: "finalStep",
-      label: "My Final Step",
+      label: "Review & Submit",
       isDone: false,
       component: LastPage ,
     },
