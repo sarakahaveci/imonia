@@ -4,16 +4,6 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 function LastPage() {
-  const [steps, setSteps] = useState([
-    {
-      key: "finalStep",
-      label: "My Final Step",
-      isDone: false,
-      component: finalStep,
-    },
-  ]);
-
-  const finalStep = () => {
     return (
       <div className="page">
         <Form className="column justify-content-center">
@@ -54,5 +44,4 @@ function LastPage() {
       </div>
     );
   };
-}
 export default LastPage;

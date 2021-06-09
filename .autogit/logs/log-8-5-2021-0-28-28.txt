@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Tue Jun 08 2021 00:28:28 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/pages/NewGame.js
+
+
+Created files:
+* .autogit/logs/log-7-5-2021-19-44-48.txt
+
+
+Deleted files:
+
+
+Renamed files:
