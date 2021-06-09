@@ -5,7 +5,7 @@ import "./style.css";
 
 function LastPage() {
     return (
-      <div className="page">
+      <div classNme="page" >
         <Form className="column justify-content-center">
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
             <Form.Label>Benzersiz Ad</Form.Label>
@@ -37,9 +37,6 @@ function LastPage() {
           </Form.Group>
         </Form>
         <Link to="/">
-          <Button className="button" variant="outline-secondary">
-            KAYDET
-          </Button>{" "}
         </Link>
       </div>
     );
