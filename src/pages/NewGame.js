@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import "./style.css";
-import LastPage from './LastPage';
+import LastPage from "./LastPage";
 import PageTwo from "./PageTwo";
 import PageThree from "./PageThree";
 
@@ -68,7 +68,7 @@ function NewGame() {
       key: "finalStep",
       label: "Review & Submit",
       isDone: false,
-      component: LastPage ,
+      component: LastPage,
     },
   ]);
 
@@ -76,7 +76,7 @@ function NewGame() {
 
   const handleNext = () => {
     if (steps[steps.length - 1].key === activeStep.key) {
-      alert("You have completed all steps.");
+      alert("Your information has been saved.");
       return;
     }
 
@@ -130,14 +130,16 @@ function NewGame() {
         <div className="btn-component">
           <input
             type="button"
-            value="Back"
+            value="Geri"
             onClick={handleBack}
             disabled={steps[0].key === activeStep.key}
           />
           <input
             type="button"
             value={
-              steps[steps.length - 1].key !== activeStep.key ? "Next" : "Submit"
+              steps[steps.length - 1].key !== activeStep.key
+                ? "İ L E R İ"
+                : "K A Y D E T"
             }
             onClick={handleNext}
           />
