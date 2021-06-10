@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Fri Jun 11 2021 01:27:50 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/Navbar.css
+* src/pages/NewGame.js
+* src/pages/style.css
+
+
+Created files:
+* .autogit/logs/log-11-5-2021-0-57-33.txt
+
+
+Deleted files:
+
+
+Renamed files:
