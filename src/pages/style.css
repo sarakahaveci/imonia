@@ -1,3 +1,6 @@
+.form-control
+{display: inline-block; width: auto;}
+
 Form.Label{
   display: inline-block;
         width: 110px;
