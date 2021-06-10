@@ -9,7 +9,7 @@ function Games() {
       <h1>Games List</h1>
       <div>
         <table className="table table-bordered table-striped">
-          <Table responsive>
+          <Table style={{width:"100%",}} responsive>
             <thead>
               <tr>
                 <th>Benzirsiz Adi</th>

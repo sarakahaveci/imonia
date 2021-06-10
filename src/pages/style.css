@@ -2,12 +2,12 @@ Form.Label{
   display: inline-block;
         width: 110px;
 }
+
 form{
-  width: 60%;
+  width: 50%;
   white-space: normal;
   word-wrap: break-word;
 }
-
 .page {
   margin: 2%;
   display: flex;
