@@ -8,8 +8,8 @@ function Games() {
     <div>
       <h1>Games List</h1>
       <div>
-        <table className="table table-bordered table-striped">
-          <Table style={{width:"100%",}} responsive>
+        <table className="table table-bordered table-striped" style={{width:"109%"}}>
+          <Table  responsive>
             <thead>
               <tr>
                 <th>Benzirsiz Adi</th>
