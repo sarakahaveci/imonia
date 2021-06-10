@@ -7,36 +7,38 @@ import PageThree from "./PageThree";
 
 const firstComponent = () => {
   return (
-    <Form className="column justify-content-center page">
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Benzersiz Ad</Form.Label>
-        <Form.Control as="textarea" rows={3} />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Görünen İsim</Form.Label>
-        <Form.Control as="textarea" rows={3} />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Oyun Açıklaması</Form.Label>
-        <Form.Control as="textarea" rows={3} />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Oyun Türü</Form.Label>
-        <Form.Control as="textarea" rows={3} />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Bireysel</Form.Label>
-        <Form.Control as="textarea" rows={3} />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Oyun Durumu</Form.Label>
-        <Form.Control as="textarea" rows={3} />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Açık</Form.Label>
-        <Form.Control as="textarea" rows={3} />
-      </Form.Group>
-    </Form>
+    <div id="root">
+      <Form className="column justify-content-center page">
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Benzersiz Ad</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Görünen İsim</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Oyun Açıklaması</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Oyun Türü</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Bireysel</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Oyun Durumu</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Açık</Form.Label>
+          <Form.Control as="textarea" rows={3} />
+        </Form.Group>
+      </Form>
+    </div>
   );
 };
 

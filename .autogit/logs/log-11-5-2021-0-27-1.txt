@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Fri Jun 11 2021 00:27:01 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/Navbar.css
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
