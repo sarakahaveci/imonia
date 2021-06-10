@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Form } from "react-bootstrap";
+import {Form} from "react-bootstrap";
 import "./style.css";
 import LastPage from "./LastPage";
 import PageTwo from "./PageTwo";
@@ -7,43 +7,37 @@ import PageThree from "./PageThree";
 
 const firstComponent = () => {
   return (
-    <div id="root">
-      <Form className="column justify-content-center page">
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Benzersiz Ad</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Görünen İsim</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Oyun Açıklaması</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Oyun Türü</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Bireysel</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Oyun Durumu</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Açık</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-      </Form>
-    </div>
+    <Form className="column justify-content-center page">
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Benzersiz Ad</Form.Label>
+        <Form.Control as="textarea" rows={3} />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Görünen İsim</Form.Label>
+        <Form.Control as="textarea" rows={3} />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Oyun Açıklaması</Form.Label>
+        <Form.Control as="textarea" rows={3} />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Oyun Türü</Form.Label>
+        <Form.Control as="textarea" rows={3} />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Bireysel</Form.Label>
+        <Form.Control as="textarea" rows={3} />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Oyun Durumu</Form.Label>
+        <Form.Control as="textarea" rows={3} />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Açık</Form.Label>
+        <Form.Control as="textarea" rows={3} />
+      </Form.Group>
+    </Form>
   );
-};
-
-const finalComponent = () => {
-  return <div>Final Component</div>;
 };
 
 function NewGame() {
@@ -132,7 +126,7 @@ function NewGame() {
         <div className="btn-component">
           <input
             type="button"
-            value="Geri"
+            value="G E R I"
             onClick={handleBack}
             disabled={steps[0].key === activeStep.key}
           />
